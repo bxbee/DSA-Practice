@@ -19,6 +19,12 @@ int main() {
     for (int x : arr) {
         freq[x]++;
     }
+    // Map is a sorted structure we can print it and see the frequency of all elements
+    for(auto it : freq  ){
+    cout<<it.first<<"->"<<it.second<<endl;
+  }
+    
+    
 
     // Process queries
     int t;
