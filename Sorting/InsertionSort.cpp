@@ -2,42 +2,36 @@
 #include <vector>
 using namespace std;
 
-// Function to perform selection sort
-void selection_sort(vector<int> &arr, int n) {
-    for (int i = 0; i <= n - 2; i++) {
-        int minIndex = i;
-        for (int j = i; j <= n - 1; j++) {
-            if (arr[j] < arr[minIndex]) {
-                minIndex = j;
-            }
-        }
-        // Swap the found minimum element with the first element
-        int temp = arr[minIndex];
-        arr[minIndex] = arr[i];
-        arr[i] = temp;
-    }
-}
-
-// Function to print the array
-void print_array(const vector<int> &arr, int n) {
+// Function to perform Insertion Sort
+void insertion_Sort(vector<int> &arr, int n) {
     for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
+        int j = i;
+        // Shift elements until the correct position is found
+        while (j > 0 && arr[j - 1] > arr[j]) {
+            // Swap arr[j] and arr[j-1]
+            int temp = arr[j - 1];
+            arr[j - 1] = arr[j];
+            arr[j] = temp;
+            j--;
+        }
     }
-    cout << endl;
 }
 
-// Main function
 int main() {
     int n;
-    cin >> n;
+    cin >> n;  // Input size of array
 
     vector<int> arr(n);
     for (int i = 0; i < n; i++) {
-        cin >> arr[i];
+        cin >> arr[i];  // Input elements
     }
 
-    selection_sort(arr, n);
-    print_array(arr, n);
+    insertion_Sort(arr, n);  // Sort the array
+
+    // Print sorted array
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
 
     return 0;
 }
