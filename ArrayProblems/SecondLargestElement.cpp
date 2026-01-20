@@ -29,6 +29,7 @@ int main() {
             slargest = arr[i];    // Update second largest
         }
     }
+    cout<<slargest<<" ";
 
     
 
