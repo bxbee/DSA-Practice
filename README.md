@@ -39,102 +39,93 @@
         border:1px solid #f59e0b;
       ">4 hours/day</span>
     </h2>
-
-    <p style="margin:8px 0 14px 0; color:#1f2937;">
-      Consistency beats intensity—show up daily, track progress, and protect deep work time.
-    </p>
-
-    <div style="
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-      gap:12px;
-      margin:12px 0 16px 0;
-    ">
-      <div style="
-        background:#eff6ff;
-        border:1px solid #93c5fd;
-        border-radius:10px;
-        padding:12px 12px;
-      ">
-        <div style="font-weight:700; color:#1e3a8a; margin-bottom:6px;">Focus blocks</div>
-        <ul style="margin:0; padding-left:18px; color:#1f2937;">
-          <li><strong>Pomodoro:</strong> 50 min focus + 10 min break</li>
-          <li><strong>Daily total:</strong> 4 × 60 min = 240 min</li>
-          <li><strong>No notifications:</strong> airplane mode if possible</li>
-        </ul>
-      </div>
-
-      <div style="
-        background:#f0fdf4;
-        border:1px solid #86efac;
-        border-radius:10px;
-        padding:12px 12px;
-      ">
-        <div style="font-weight:700; color:#065f46; margin-bottom:6px;">Quality over quantity</div>
-        <ul style="margin:0; padding-left:18px; color:#1f2937;">
-          <li><strong>Plan:</strong> 3–5 tasks with clear outcomes</li>
-          <li><strong>Depth:</strong> debug, refactor, document</li>
-          <li><strong>Review:</strong> end-of-day notes + next steps</li>
-        </ul>
-      </div>
-
-      <div style="
-        background:#fff7ed;
-        border:1px solid #fdba74;
-        border-radius:10px;
-        padding:12px 12px;
-      ">
-        <div style="font-weight:700; color:#9a3412; margin-bottom:6px;">Tracking & feedback</div>
-        <ul style="margin:0; padding-left:18px; color:#1f2937;">
-          <li><strong>Log:</strong> time, topic, blockers, wins</li>
-          <li><strong>Metrics:</strong> issues closed, tests added</li>
-          <li><strong>Share:</strong> commit early, commit often</li>
-        </ul>
-      </div>
-    </div>
-
-    <div style="
-      display:flex;
-      flex-wrap:wrap;
-      gap:10px;
-      margin-top:6px;
-    ">
-      <span style="
-        background:#dcfce7;
-        color:#166534;
-        border:1px solid #86efac;
-        padding:6px 10px;
-        border-radius:999px;
-        font-weight:700;
-        font-size:0.85rem;
-      ">Daily discipline</span>
-      <span style="
-        background:#e0f2fe;
-        color:#1e40af;
-        border:1px solid #93c5fd;
-        padding:6px 10px;
-        border-radius:999px;
-        font-weight:700;
-        font-size:0.85rem;
-      ">Deep work</span>
-      <span style="
-        background:#fee2e2;
-        color:#991b1b;
-        border:1px solid #fca5a5;
-        padding:6px 10px;
-        border-radius:999px;
-        font-weight:700;
-        font-size:0.85rem;
-      ">No distractions</span>
-      <span style="
-        background:#fef9c3;
-        color:#854d0e;
-        border:1px solid #fde68a;
-        padding:6px 10px;
-        border-radius:999px;
-        font-weight:700;
-        font-size:0.85rem;
-      ">Track progress</span>
-    </div>
   </div>
+</div>
+
+<!-- DSA Practice  -->
+<div style="display:flex; flex-wrap:wrap; gap:16px;">
+
+  <!-- Arrays & Strings -->
+  <div style="
+    flex:1 1 280px;
+    border-radius:12px;
+    padding:16px;
+    background:linear-gradient(135deg,#93c5fd,#3b82f6);
+    color:#fff;
+    box-shadow:0 6px 12px rgba(0,0,0,0.15);
+  ">
+    <h3 style="margin-top:0;">📐 Arrays & Strings</h3>
+    <ul>
+      <li>Practice slicing, reversing, merging</li>
+      <li>Focus on time complexity (O(n), O(n²))</li>
+      <li>Try problems on sliding window & hashing</li>
+    </ul>
+  </div>
+
+  <!-- Linked Lists -->
+  <div style="
+    flex:1 1 280px;
+    border-radius:12px;
+    padding:16px;
+    background:linear-gradient(135deg,#6ee7b7,#10b981);
+    color:#fff;
+    box-shadow:0 6px 12px rgba(0,0,0,0.15);
+  ">
+    <h3 style="margin-top:0;">🔗 Linked Lists</h3>
+    <ul>
+      <li>Implement insert, delete, reverse</li>
+      <li>Detect cycles (Floyd’s algorithm)</li>
+      <li>Practice merging & splitting lists</li>
+    </ul>
+  </div>
+
+  <!-- Trees & Graphs  -->
+  <div style="
+    flex:1 1 280px;
+    border-radius:12px;
+    padding:16px;
+    background:linear-gradient(135deg,#fcd34d,#f59e0b);
+    color:#fff;
+    box-shadow:0 6px 12px rgba(0,0,0,0.15);
+  ">
+    <h3 style="margin-top:0;">🌳 Trees & Graphs</h3>
+    <ul>
+      <li>Binary tree traversals (DFS, BFS)</li>
+      <li>Graph search (BFS, DFS, Dijkstra)</li>
+      <li>Practice recursion & adjacency lists</li>
+    </ul>
+  </div>
+
+  <!-- Dynamic Programming  -->
+  <div style="
+    flex:1 1 280px;
+    border-radius:12px;
+    padding:16px;
+    background:linear-gradient(135deg,#f472b6,#ec4899);
+    color:#fff;
+    box-shadow:0 6px 12px rgba(0,0,0,0.15);
+  ">
+    <h3 style="margin-top:0;">⚡ Dynamic Programming</h3>
+    <ul>
+      <li>Start with Fibonacci & knapsack</li>
+      <li>Break problems into subproblems</li>
+      <li>Memoization vs tabulation practice</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- Practice Commitment -->
+<div style="
+  margin-top:24px;
+  padding:18px;
+  border-radius:12px;
+  background:linear-gradient(90deg,#0ea5e9,#8b5cf6);
+  color:#fff;
+  text-align:center;
+  font-size:1.2rem;
+  font-weight:bold;
+  box-shadow:0 6px 12px rgba(0,0,0,0.15);
+">
+  🔥 Practice at least <span style="color:#fde68a;">4 hours/day</span> — Consistency is the key!
 </div>
