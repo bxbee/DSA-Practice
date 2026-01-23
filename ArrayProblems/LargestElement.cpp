@@ -8,9 +8,14 @@ int main(){
     cin>>arr[i];
     
   }
+  int max = arr[0];
   for(int i=0;i<n;i++){
-    cout<<arr[i]<<" ";
-    
+    if(max<arr[i]){
+      max = arr[i];
+      
+    }
   }
+  cout<<max;
   return 0;
 }
+
