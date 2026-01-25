@@ -1,5 +1,46 @@
 <h1>DSA Codes From Beginner to Advance </h1>
 <p><h3>In this repository we will upload daily code that I've practicing daily until i achieve something.</h3></p>
+<h3 style="
+  font-family: 'Segoe UI', sans-serif;
+  color: #FFD700;
+  text-align: center;
+  margin-top: 20px;
+">
+  ⭐ ⭐ ⭐ Click on Star to Help Me Achieve More ⭐ ⭐ ⭐
+</h3>
+
+<div style="
+  text-align: center;
+  margin: 10px 0;
+">
+  <span style="
+    font-size: 40px;
+    color: #FFD700;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+  ">
+    ⭐
+  </span>
+  <span style="
+    font-size: 40px;
+    color: #FFD700;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+  ">
+    ⭐
+  </span>
+  <span style="
+    font-size: 40px;
+    color: #FFD700;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+  ">
+    ⭐
+  </span>
+</div>
 
 <div style="
   box-sizing:border-box;
