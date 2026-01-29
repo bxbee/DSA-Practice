@@ -1,6 +1,6 @@
 <h1>DSA Codes From Beginner to Advance </h1>
 <p><h3>In this repository we will upload daily code that I've practicing daily until i achieve something.</h3></p>
-![DSA Categories](https://yourtechsalt.com/wp-content/uploads/2017/10/dsa-categories.png)
+![DSA Categories]([https://yourtechsalt.com/wp-content/uploads/2017/10/dsa-categories.png](https://in.images.search.yahoo.com/search/images;_ylt=AwrKCY1uHntpYrwCkRO7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=DSA+PHOTO&fr2=piv-web&type=E211IN1590G0&fr=mcafee#id=3&iurl=https%3A%2F%2Fyourtechsalt.com%2Fwp-content%2Fuploads%2F2017%2F10%2Fdsa-categories.png&action=click))
 <h3 style="
   font-family: 'Segoe UI', sans-serif;
   color: #FFD700;
