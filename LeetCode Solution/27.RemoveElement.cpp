@@ -28,3 +28,13 @@ int main() {
 
     return 0;
 }
+
+
+/* Input:
+6
+1 2 3 2 4 2
+2
+
+Output:
+1 3 4
+*/ 
