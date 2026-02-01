@@ -1,6 +1,6 @@
 <h1>DSA Codes From Beginner to Advance </h1>
 <p><h3>In this repository we will upload daily code that I've practicing daily until i achieve something.</h3></p>
-![DSA-ROADMAP](./LeetCode-Solution/DSA_2RKY3W3.webp)
+![DSA-ROADMAP](https://github.com/bxbee/DSA-Practice/tree/2dc7c7276c1c087b6a3f50d13fc2493dda077568/LeetCode%20Solution)
 
 <h3 style="
   font-family: 'Segoe UI', sans-serif;
