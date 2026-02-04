@@ -139,7 +139,7 @@
     </ul>
   </div>
 
-  <!-- Dynamic Programming  -->
+  <!-- Dynamic Programming  --->
   <div style="
     flex:1 1 280px;
     border-radius:12px;
