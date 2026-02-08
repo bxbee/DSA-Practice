@@ -1,174 +1,89 @@
-<h1>DSA Codes From Beginner to Advance </h1>
-<p><h3>In this repository we will upload daily code that I've practicing daily until i achieve something.</h3></p>
+# 🚀 DSA Codes From Beginner to Advance  
 
+<p align="center">
+  <img src="https://github.com/raj-dsa/animated-banner/blob/main/dsa-banner.gif" alt="DSA Animated Banner" width="800"/>
+</p>
 
-<h3 style="
-  font-family: 'Segoe UI', sans-serif;
-  color: #FFD700;
-  text-align: center;
-  margin-top: 20px;
-">
+<h3 align="center">
   ⭐ ⭐ ⭐ Click on Star to Help Me Achieve More ⭐ ⭐ ⭐
 </h3>
 
-<div style="
-  text-align: center;
-  margin: 10px 0;
-">
-  <span style="
-    font-size: 40px;
-    color: #FFD700;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    cursor: pointer;
-    transition: transform 0.2s;
-  ">
-    ⭐
-  </span>
-  <span style="
-    font-size: 40px;
-    color: #FFD700;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    cursor: pointer;
-    transition: transform 0.2s;
-  ">
-    ⭐
-  </span>
-  <span style="
-    font-size: 40px;
-    color: #FFD700;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    cursor: pointer;
-    transition: transform 0.2s;
-  ">
-    ⭐
-  </span>
-</div>
+---
 
-<div style="
-  box-sizing:border-box;
-  max-width:860px;
-  margin:24px auto;
-  padding:20px 22px;
-  border-radius:16px;
-  border:1px solid #e6e6e6;
-  background:linear-gradient(135deg,#0ea5e9 0%,#8b5cf6 50%,#f43f5e 100%);
-  color:#0b1221;
-  box-shadow:0 10px 24px rgba(0,0,0,0.15);
-">
-  <div style="
-    background:#ffffffee;
-    border-radius:12px;
-    padding:18px 20px;
-    backdrop-filter:saturate(140%) blur(2px);
-  ">
-    <h2 style="
-      margin:0 0 10px 0;
-      font-size:1.6rem;
-      line-height:1.3;
-      color:#0b1221;
-      display:flex;
-      align-items:center;
-      gap:10px;
-    ">
-      <span>🔥 Practice Commitment</span>
-      <span style="
-        display:inline-block;
-        padding:6px 10px;
-        border-radius:999px;
-        font-size:0.85rem;
-        font-weight:700;
-        color:#0b1221;
-        background:#fde68a;
-        border:1px solid #f59e0b;
-      ">4 hours/day</span>
-    </h2>
-  </div>
-</div>
+## 🔥 Practice Commitment  
+<p align="center">
+  <img src="https://img.shields.io/badge/Practice-4_hours/day-orange?style=for-the-badge&logo=leetcode" alt="Practice Badge"/>
+</p>
 
-<!-- DSA Practice  -->
-<div style="display:flex; flex-wrap:wrap; gap:16px;">
+---
 
-  <!-- Arrays & Strings -->
-  <div style="
-    flex:1 1 280px;
-    border-radius:12px;
-    padding:16px;
-    background:linear-gradient(135deg,#93c5fd,#3b82f6);
-    color:#fff;
-    box-shadow:0 6px 12px rgba(0,0,0,0.15);
-  ">
-    <h3 style="margin-top:0;">📐 Arrays & Strings</h3>
-    <ul>
-      <li>Practice slicing, reversing, merging</li>
-      <li>Focus on time complexity (O(n), O(n²))</li>
-      <li>Try problems on sliding window & hashing</li>
-    </ul>
-  </div>
+## 📚 DSA Roadmap (Animated Flowchart)  
+<p align="center">
+  <img src="https://github.com/raj-dsa/animated-banner/blob/main/dsa-flowchart.gif" alt="DSA Flowchart" width="850"/>
+</p>
 
-  <!-- Linked Lists -->
-  <div style="
-    flex:1 1 280px;
-    border-radius:12px;
-    padding:16px;
-    background:linear-gradient(135deg,#6ee7b7,#10b981);
-    color:#fff;
-    box-shadow:0 6px 12px rgba(0,0,0,0.15);
-  ">
-    <h3 style="margin-top:0;">🔗 Linked Lists</h3>
-    <ul>
-      <li>Implement insert, delete, reverse</li>
-      <li>Detect cycles (Floyd’s algorithm)</li>
-      <li>Practice merging & splitting lists</li>
-    </ul>
-  </div>
+---
 
-  <!-- Trees & Graphs  -->
-  <div style="
-    flex:1 1 280px;
-    border-radius:12px;
-    padding:16px;
-    background:linear-gradient(135deg,#fcd34d,#f59e0b);
-    color:#fff;
-    box-shadow:0 6px 12px rgba(0,0,0,0.15);
-  ">
-    <h3 style="margin-top:0;">🌳 Trees & Graphs</h3>
-    <ul>
-      <li>Binary tree traversals (DFS, BFS)</li>
-      <li>Graph search (BFS, DFS, Dijkstra)</li>
-      <li>Practice recursion & adjacency lists</li>
-    </ul>
-  </div>
+## 🧩 Topics Covered  
 
-  <!-- Dynamic Programming  --->
-  <div style="
-    flex:1 1 280px;
-    border-radius:12px;
-    padding:16px;
-    background:linear-gradient(135deg,#f472b6,#ec4899);
-    color:#fff;
-    box-shadow:0 6px 12px rgba(0,0,0,0.15);
-  ">
-    <h3 style="margin-top:0;">⚡ Dynamic Programming</h3>
-    <ul>
-      <li>Start with Fibonacci & knapsack</li>
-      <li>Break problems into subproblems</li>
-      <li>Memoization vs tabulation practice</li>
-    </ul>
-  </div>
+### 📐 Arrays & Strings  
+- Practice slicing, reversing, merging  
+- Focus on time complexity (O(n), O(n²))  
+- Sliding window & hashing problems  
 
-</div>
+### 🔗 Linked Lists  
+- Implement insert, delete, reverse  
+- Detect cycles (Floyd’s algorithm)  
+- Merging & splitting lists  
 
-<!-- Practice Commitment -->
-<div style="
-  margin-top:24px;
-  padding:18px;
-  border-radius:12px;
-  background:linear-gradient(90deg,#0ea5e9,#8b5cf6);
-  color:#fff;
-  text-align:center;
-  font-size:1.2rem;
-  font-weight:bold;
-  box-shadow:0 6px 12px rgba(0,0,0,0.15);
-">
-  🔥 Practice at least <span style="color:#fde68a;">4 hours/day</span> — Consistency is the key!
-</div>
+### 🌳 Trees & Graphs  
+- Binary tree traversals (DFS, BFS)  
+- Graph search (BFS, DFS, Dijkstra)  
+- Recursion & adjacency lists  
+
+### ⚡ Dynamic Programming  
+- Fibonacci & knapsack basics  
+- Break problems into subproblems  
+- Memoization vs tabulation  
+
+---
+
+## 🎥 Best YouTube Channels for DSA  
+
+- [💻 Love Babbar DSA Series](https://www.youtube.com/c/LoveBabbar)  
+- [📘 Striver’s DSA Playlist](https://www.youtube.com/c/takeUforward)  
+- [🔑 CodeWithHarry](https://www.youtube.com/c/CodeWithHarry)  
+- [⚡ Abdul Bari (Algorithms)](https://www.youtube.com/c/abdul_bari)  
+
+---
+
+## 📖 Resource Links  
+
+- [LeetCode](https://leetcode.com/)  
+- [GeeksForGeeks](https://www.geeksforgeeks.org/)  
+- [HackerRank](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)  
+- [Codeforces](https://codeforces.com/)  
+- [InterviewBit](https://www.interviewbit.com/)  
+
+---
+
+## 🌟 Motivation  
+<p align="center">
+  <img src="https://github.com/raj-dsa/animated-banner/blob/main/motivation.gif" alt="Motivation GIF" width="600"/>
+</p>
+
+🔥 Practice at least **4 hours/day** — Consistency is the key!  
+
+---
+
+## 📌 Contribution  
+- Fork the repo  
+- Add your solutions  
+- Submit a Pull Request  
+
+---
+
+## 🏆 Progress Tracker  
+<p align="center">
+  <img src="https://github.com/raj-dsa/animated-banner/blob/main/progress-bar.gif" alt="Progress Tracker" width="700"/>
+</p>
