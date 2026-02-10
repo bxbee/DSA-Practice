@@ -18,7 +18,7 @@ int main() {
     int slargest = INT_MIN;
 
     // Traverse the array once
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i <n; i++) {
         // Case 1: Found a new largest element
         if (arr[i] > largest) {
             slargest = largest;   // Previous largest becomes second largest
