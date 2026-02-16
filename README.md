@@ -17,7 +17,7 @@
 
 ---
 
-## 📚 DSA Roadmap (Animated Flowchart)  
+## 📚 DSA Roadmap   
 <p align="center">
   <img src="https://github.com/raj-dsa/animated-banner/blob/main/dsa-flowchart.gif" alt="DSA Flowchart" width="850"/>
 </p>
@@ -28,7 +28,7 @@
 
 ### 📐 Arrays & Strings  
 - Practice slicing, reversing, merging  
-- Focus on time complexity (O(n), O(n²))  
+- Focus on time complexity O(n), O(n²)
 - Sliding window & hashing problems  
 
 ### 🔗 Linked Lists  
