@@ -1,4 +1,4 @@
-# 🚀 DSA Codes From Beginner to Advance  
+# 🚀 DSA Codes From Beginner to Advance Level 
 
 <p align="center">
   <img src="https://github.com/raj-dsa/animated-banner/blob/main/dsa-banner.gif" alt="DSA Animated Banner" width="800"/>
