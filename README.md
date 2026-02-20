@@ -1,137 +1,181 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=The+Ultimate+DSA+%26+DAA+Workspace;Data+Structures+%26+Algorithms;Design+%26+Analysis+of+Algorithms;Grinding+Codeforces+%26+CodeChef!&font=Fira+Code&center=true&width=800&height=60&color=00FF00&vCenter=true&size=22" alt="Typing SVG">
+<img src="https://readme-typing-svg.demolab.com/?lines=Data+Structures+%26+Algorithms;The+Complete+DAA+Roadmap;From+Arrays+to+Dynamic+Programming;Visualized+%26+Animated!&font=Fira+Code&center=true&width=800&height=60&color=F7931E&vCenter=true&size=24" alt="Typing SVG">
 
-A highly detailed, fully animated repository documenting the my journey from fundamental memory structures to advanced competitive programming paradigms. 🚀
+A comprehensive, animated collection of data structures and algorithms.
+**Learn. Visualize. Code.**
 
 ---
 
-### 💻 Tech Stack & Platforms
+### 🛠️ Tech Stack & Platforms
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 <br>
-![Codeforces](https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white)
-![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white)
 ![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
+![GeeksForGeeks](https://img.shields.io/badge/GeeksForGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)
+![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
 
 </div>
 
 ---
 
-## 📐 1. Design & Analysis of Algorithms (DAA)
+## ⚡ 1. Complexity Analysis (Big O)
+Before writing code, we must measure its efficiency.
 
-Before writing code, we must analyze the efficiency of our approach. DAA is about algorithm design paradigms and mathematically proving their time and space complexities using Big-O, Big-Omega, and Big-Theta notation.
+* **Time Complexity:** How the runtime grows as input size ($N$) increases.
+* **Space Complexity:** How much extra memory is required.
 
-### 🧠 Paradigms of Problem Solving
-* **Divide and Conquer:** Breaking a problem into smaller, independent subproblems, solving them recursively, and combining the results (e.g., Merge Sort, Quick Sort).
-* **Greedy Algorithms:** Making the locally optimal choice at each step to find a global optimum. Fast, but doesn't always guarantee the best result (e.g., Fractional Knapsack, Dijkstra's, Huffman Coding).
-* **Dynamic Programming (DP):** Storing the results of overlapping subproblems to avoid redundant calculations. **Memoization** (Top-Down) and **Tabulation** (Bottom-Up) are the keys to optimizing O(2^N) recursive nightmares into O(N) operations.
-
----
-
-## 🧱 2. Core Fundamentals
-
-### 📦 Arrays & Strings
-The most fundamental data structure. Elements are stored in **contiguous memory locations**.
-* **Details:** Arrays allow O(1) random access but require O(N) time for insertions/deletions in the middle. Crucial for paradigms like **Sliding Window** and **Two-Pointer** techniques.
-
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Selection_sort_animation.gif" alt="Array Sorting Animation" width="300">
-  <br>
-  <i>Iterating through an array to sort elements sequentially.</i>
-</div>
-
-### 🔗 Linked Lists
-Data elements (nodes) are stored randomly in memory and linked via pointers. 
-* **Details:** Allows for dynamic memory allocation and O(1) insertions/deletions at the ends, but requires O(N) traversal time since there is no random access.
-* **Types:** Singly Linked, Doubly Linked, and Circular Linked Lists.
-
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Linked_list_data_structure.gif" alt="Linked List Concept" width="400">
-  <br>
-  <i>Nodes connected by pointers, creating a dynamic chain of memory.</i>
-</div>
+| Complexity | Name | Example Algorithm |
+| :--- | :--- | :--- |
+| $O(1)$ | Constant | Accessing Array Index |
+| $O(\log N)$ | Logarithmic | Binary Search |
+| $O(N)$ | Linear | Loop through Array |
+| $O(N \log N)$ | Linearithmic | Merge Sort, Quick Sort |
+| $O(N^2)$ | Quadratic | Nested Loops (Bubble Sort) |
+| $O(2^N)$ | Exponential | Recursive Fibonacci |
 
 ---
 
-## 🏗️ 3. Linear Data Structures
+## 🧱 2. Linear Data Structures
 
-### 🥞 The Stack (LIFO)
-A **Last-In, First-Out** structure. Imagine a stack of plates: you can only add or remove the top plate. 
-* **Details:** Essential for depth-first search (DFS), undo mechanisms, recursive function calls, and syntax parsing (like validating brackets `(){}[]`).
+### 🚃 Arrays
+A collection of items stored at contiguous memory locations.
+* **Access:** $O(1)$ (Fastest)
+* **Insertion/Deletion:** $O(N)$ (Slow, requires shifting)
+
+### 🔗 Linked Lists (Singly & Doubly)
+Nodes connected by pointers. Unlike arrays, they are not stored continuously in memory.
+* **Singly Linked List:** Forward navigation only.
+* **Doubly Linked List:** Forward and Backward navigation.
+* **Why use it?** Dynamic size and fast insertion/deletion $O(1)$ if pointer is known.
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif" alt="Stack Animation" width="400">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Doubly_linked_list_insert_after.png" alt="Linked List Insertion" width="500">
   <br>
-  <i>The Tower of Hanoi: A classic algorithmic problem solved via the recursive call stack.</i>
+  <i>Inserting a node into a Linked List by changing pointers.</i>
 </div>
 
-### 🚶 The Queue (FIFO)
-A **First-In, First-Out** structure. Just like a line at a ticket counter.
-* **Details:** Used in Breadth-First Search (BFS), CPU scheduling, and buffering. Variants include Deques (Double-ended queues) and Priority Queues (implemented via Heaps).
+### 🥞 Stacks (LIFO)
+**Last-In, First-Out.** The element inserted last is the first to be removed.
+* **Operations:** `push()`, `pop()`, `peek()`
+* **Use Cases:** Undo/Redo features, Browser history, Recursion stack.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Lifo_stack.png" alt="Stack Diagram" width="300">
+</div>
+
+### 🚶 Queues (FIFO)
+**First-In, First-Out.** The element inserted first is the first to be removed.
+* **Operations:** `enqueue()`, `dequeue()`
+* **Use Cases:** Printer scheduling, CPU task scheduling, Breadth-First Search (BFS).
 
 ---
 
-## 🌲 4. Non-Linear Data Structures
+## 🔎 3. Searching Algorithms
 
-### 🍃 Trees (BST & AVL)
-Hierarchical structures consisting of a root node and children.
-* **Details:** A Binary Search Tree (BST) keeps left children smaller and right children larger, allowing O(log N) operations. **AVL Trees** auto-rotate to prevent the tree from becoming skewed.
-
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/AVL-tree-w-letters_insert_G.gif" alt="AVL Tree Animation" width="300">
-  <br>
-  <i>An AVL Tree performing a balancing "rotation" after insertion.</i>
-</div>
-
-### 🕸️ Graphs
-Nodes (vertices) connected by edges. Used for mapping networks, roads, and relationships.
-* **BFS (Breadth-First Search):** Explores level-by-level (Shortest Path on unweighted graphs).
-* **DFS (Depth-First Search):** Plunges deep down a single path before backtracking.
-
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Depth-First-Search.gif" alt="DFS Animation" width="300">
-  <br>
-  <i>DFS actively exploring a network maze.</i>
-</div>
-
----
-
-## 🔀 5. Advanced Sorting & Searching
-
-### ⚡ Quick Sort vs. 🧬 Merge Sort
-Both use the **Divide and Conquer** paradigm from DAA.
-* **Quick Sort:** Picks a pivot, partitions elements. O(N log N) average, O(1) space.
-* **Merge Sort:** Divides into single units, merges back in order. O(N log N) guaranteed, but requires O(N) extra space.
-
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif" alt="Quick Sort Animation" width="300">
-  <br>
-  <i>Quick Sort rapidly partitioning arrays around a pivot.</i>
-</div>
-
-### 🔍 Binary Search
-A fundamental search algorithm operating on sorted arrays. It cuts the search space in half every iteration, resulting in an incredibly fast O(log N) time complexity.
+### 🔦 Linear vs Binary Search
+* **Linear Search:** Checks every element. $O(N)$.
+* **Binary Search:** Divides the search interval in half. Requires **Sorted Array**. $O(\log N)$.
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Dictionary_Binary_Search.gif" alt="Binary Search Animation" width="400">
   <br>
-  <i>Binary search efficiently zeroing in on a target value.</i>
+  <i>Binary Search finding the target drastically faster than checking one by one.</i>
 </div>
 
 ---
 
-## 📚 6. Ultimate Resources & Links
+## 🔄 4. Sorting Algorithms
 
-To master these concepts, visualization and practice are key.
-
-* 🎥 **[VisuAlgo](https://visualgo.net/)**: The absolute best platform for viewing step-by-step animations of every algorithm mentioned above.
-* 📖 **[CP-Algorithms](https://cp-algorithms.com/)**: The holy grail for competitive programming math, advanced logic, and complex data structures.
-* 💻 **[Codeforces Problemset](https://codeforces.com/problemset)**: The premier platform for grinding problems and building algorithmic intuition.
-* 🗺️ **[NeetCode Roadmap](https://neetcode.io/roadmap)**: A structured visual guide to mastering foundational and advanced interview problems.
+### 🧼 Bubble Sort
+Repeatedly swaps adjacent elements if they are in the wrong order.
+* **Complexity:** $O(N^2)$ (Slow, good for learning).
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Keep+Practicing!;Code,+Analyze,+Optimize!;Eat.+Sleep.+Compile.+Repeat.&font=Fira+Code&center=true&width=600&height=50&color=EF3958" alt="Footer Typing SVG">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" alt="Bubble Sort" width="300">
+</div>
+
+### ⚡ Quick Sort
+A **Divide and Conquer** algorithm. Picks a "pivot" and partitions the array.
+* **Complexity:** $O(N \log N)$ usually. Fast and memory efficient.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif" alt="Quick Sort" width="300">
+</div>
+
+### 🧬 Merge Sort
+Recursively divides array into halves, sorts them, and merges them.
+* **Complexity:** Guaranteed $O(N \log N)$.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif" alt="Merge Sort" width="300">
+</div>
+
+---
+
+## 🌳 5. Trees & Heaps
+
+### 🍃 Binary Search Tree (BST)
+A hierarchical structure where the left child is smaller and right child is larger.
+* **Search/Insert:** $O(\log N)$ (if balanced).
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Binary_search_tree_example.gif" alt="BST" width="300">
+</div>
+
+---
+
+## 🕸️ 6. Graph Algorithms (The Advanced Stuff)
+
+Graphs represent networks (Social Media, Maps, Internet).
+
+### 🔍 BFS (Breadth-First Search)
+Explores neighbor nodes first (layer by layer). Uses a **Queue**.
+* **Best for:** Shortest path in unweighted graphs.
+
+### 🕵️ DFS (Depth-First Search)
+Explores as far as possible along each branch before backtracking. Uses a **Stack** (or Recursion).
+* **Best for:** Puzzle solving, maze generation.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Depth-First-Search.gif" alt="DFS Animation" width="350">
+  <br>
+  <i>Visualizing DFS traversing a graph deep into the nodes.</i>
+</div>
+
+---
+
+## 🧠 7. Design & Analysis of Algorithms (DAA)
+
+### 🧩 Dynamic Programming (DP)
+Solves complex problems by breaking them into simpler subproblems and storing their solutions (Memoization) to avoid re-computing.
+* **Examples:** Fibonacci, Knapsack Problem, Longest Common Subsequence.
+
+### 🏃 Greedy Algorithms
+Makes the locally optimal choice at each stage.
+* **Examples:** Dijkstra's Algorithm, Huffman Coding, Prim's Algorithm.
+
+### ↩️ Backtracking
+Builds candidates for the solution incrementally and abandons a candidate ("backtracks") as soon as it determines the candidate cannot be a valid solution.
+* **Example:** N-Queens Problem, Sudoku Solver.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Eight-queens-animation.gif" alt="N-Queens Backtracking" width="300">
+  <br>
+  <i>Solving the N-Queens problem using Backtracking.</i>
+</div>
+
+---
+
+## 📚 Resources & Links
+
+* **Visualization:** [VisuAlgo (Must Visit!)](https://visualgo.net/en)
+* **Practice:** [LeetCode Top 100 Liked](https://leetcode.com/problem-list/top-100-liked-questions/)
+* **Theory:** [GeeksForGeeks DSA](https://www.geeksforgeeks.org/data-structures/)
+* **Cheat Sheet:** [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Keep+Coding!;Happy+Learning!&font=Fira+Code&center=true&width=400&height=50&color=2E86C1" alt="Footer">
 </div>
