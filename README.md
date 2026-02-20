@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=The+Ultimate+DSA+Workspace;Data+Structures+%26+Algorithms;Grinding+Codeforces+%26+CodeChef!;Mastering+Problem+Solving!&font=Fira+Code&center=true&width=800&height=60&color=00FF00&vCenter=true&size=22" alt="Typing SVG">
+<img src="https://readme-typing-svg.demolab.com/?lines=The+Ultimate+DSA+%26+DAA+Workspace;Data+Structures+%26+Algorithms;Design+%26+Analysis+of+Algorithms;Grinding+Codeforces+%26+CodeChef!&font=Fira+Code&center=true&width=800&height=60&color=00FF00&vCenter=true&size=22" alt="Typing SVG">
 
-An detailed repository documenting my journey from fundamental data structures to advanced competitive programming algorithms. 🚀
+A highly detailed, fully animated repository documenting the my journey from fundamental memory structures to advanced competitive programming paradigms. 🚀
 
 ---
 
@@ -20,112 +20,118 @@ An detailed repository documenting my journey from fundamental data structures t
 
 ---
 
-## 🧱 1. Linear Data Structures
+## 📐 1. Design & Analysis of Algorithms (DAA)
 
-Linear data structures organize data sequentially. They are the foundational building blocks for memory management and algorithmic logic.
+Before writing code, we must analyze the efficiency of our approach. DAA is about algorithm design paradigms and mathematically proving their time and space complexities using Big-O, Big-Omega, and Big-Theta notation.
+
+### 🧠 Paradigms of Problem Solving
+* **Divide and Conquer:** Breaking a problem into smaller, independent subproblems, solving them recursively, and combining the results (e.g., Merge Sort, Quick Sort).
+* **Greedy Algorithms:** Making the locally optimal choice at each step to find a global optimum. Fast, but doesn't always guarantee the best result (e.g., Fractional Knapsack, Dijkstra's, Huffman Coding).
+* **Dynamic Programming (DP):** Storing the results of overlapping subproblems to avoid redundant calculations. **Memoization** (Top-Down) and **Tabulation** (Bottom-Up) are the keys to optimizing O(2^N) recursive nightmares into O(N) operations.
+
+---
+
+## 🧱 2. Core Fundamentals
+
+### 📦 Arrays & Strings
+The most fundamental data structure. Elements are stored in **contiguous memory locations**.
+* **Details:** Arrays allow O(1) random access but require O(N) time for insertions/deletions in the middle. Crucial for paradigms like **Sliding Window** and **Two-Pointer** techniques.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Selection_sort_animation.gif" alt="Array Sorting Animation" width="300">
+  <br>
+  <i>Iterating through an array to sort elements sequentially.</i>
+</div>
+
+### 🔗 Linked Lists
+Data elements (nodes) are stored randomly in memory and linked via pointers. 
+* **Details:** Allows for dynamic memory allocation and O(1) insertions/deletions at the ends, but requires O(N) traversal time since there is no random access.
+* **Types:** Singly Linked, Doubly Linked, and Circular Linked Lists.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Linked_list_data_structure.gif" alt="Linked List Concept" width="400">
+  <br>
+  <i>Nodes connected by pointers, creating a dynamic chain of memory.</i>
+</div>
+
+---
+
+## 🏗️ 3. Linear Data Structures
 
 ### 🥞 The Stack (LIFO)
 A **Last-In, First-Out** structure. Imagine a stack of plates: you can only add or remove the top plate. 
-* **Details:** Essential for depth-first search, undo mechanisms, and parsing syntax (like validating parentheses). If you are studying for a quiz on data structures, mastering the `push()`, `pop()`, and `peek()` operations in O(1) time is critical!
+* **Details:** Essential for depth-first search (DFS), undo mechanisms, recursive function calls, and syntax parsing (like validating brackets `(){}[]`).
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif" alt="Tower of Hanoi Recursion/Stack" width="400">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif" alt="Stack Animation" width="400">
   <br>
-  <i>The Tower of Hanoi: A classic algorithmic problem solved perfectly using the recursive call stack.</i>
+  <i>The Tower of Hanoi: A classic algorithmic problem solved via the recursive call stack.</i>
 </div>
 
 ### 🚶 The Queue (FIFO)
 A **First-In, First-Out** structure. Just like a line at a ticket counter.
-* **Details:** Used in Breadth-First Search (BFS), CPU task scheduling, and handling asynchronous requests. Variants include Deques (Double-ended queues) and Priority Queues (heaps).
+* **Details:** Used in Breadth-First Search (BFS), CPU scheduling, and buffering. Variants include Deques (Double-ended queues) and Priority Queues (implemented via Heaps).
 
 ---
 
-## 🌲 2. Non-Linear Data Structures
+## 🌲 4. Non-Linear Data Structures
 
-When data requires hierarchy or complex relationships, we move to non-linear structures.
-
-### 🍃 Binary Search Trees (BST) & AVL Trees
-Trees consist of nodes connected by edges. A BST keeps the left child smaller and the right child larger than the parent.
-* **Details:** Allows for O(log N) search, insertion, and deletion. **AVL Trees** are self-balancing BSTs that automatically rotate to ensure the tree never becomes a slow, lopsided linked list.
+### 🍃 Trees (BST & AVL)
+Hierarchical structures consisting of a root node and children.
+* **Details:** A Binary Search Tree (BST) keeps left children smaller and right children larger, allowing O(log N) operations. **AVL Trees** auto-rotate to prevent the tree from becoming skewed.
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/AVL-tree-w-letters_insert_G.gif" alt="AVL Tree Animation" width="300">
   <br>
-  <i>Watch an AVL Tree perform a "rotation" to balance itself after a new node is inserted!</i>
+  <i>An AVL Tree performing a balancing "rotation" after insertion.</i>
 </div>
 
----
-
-## 🔀 3. The Art of Sorting
-
-Sorting is heavily tested in technical interviews and is a prerequisite for optimizing search algorithms.
-
-### ⚡ Quick Sort (Divide and Conquer)
-Picks a "pivot" element and partitions the array into numbers smaller than the pivot and numbers larger than the pivot.
-* **Details:** Highly efficient with an average time complexity of O(N log N). It does this in-place, meaning it uses very little extra memory!
-
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif" alt="Quick Sort Animation" width="300">
-  <br>
-  <i>Quick Sort rapidly partitioning and sorting sub-arrays around a pivot.</i>
-</div>
-
-### 🧬 Merge Sort (Divide and Conquer)
-Divides the array into single elements, then repeatedly merges them back together in sorted order.
-* **Details:** Guarantees O(N log N) time complexity even in the worst-case scenario. Essential for sorting linked lists!
-
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif" alt="Merge Sort Animation" width="300">
-  <br>
-  <i>Merge Sort breaking data down to single units and merging them in order.</i>
-</div>
-
----
-
-## 🕸️ 4. Graph Algorithms
-
-Graphs model real-world networks—roads, social media connections, and computer networks. 
-
-### 🗺️ Graph Traversal: BFS vs. DFS
-* **Breadth-First Search (BFS):** Explores neighbors level by level. Excellent for finding the shortest path on an unweighted grid.
-* **Depth-First Search (DFS):** Plunges as deep as possible down one path before backtracking. Great for finding connected components and maze solving.
+### 🕸️ Graphs
+Nodes (vertices) connected by edges. Used for mapping networks, roads, and relationships.
+* **BFS (Breadth-First Search):** Explores level-by-level (Shortest Path on unweighted graphs).
+* **DFS (Depth-First Search):** Plunges deep down a single path before backtracking.
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Depth-First-Search.gif" alt="DFS Animation" width="300">
   <br>
-  <i>DFS plunging deep into a graph network before backtracking.</i>
+  <i>DFS actively exploring a network maze.</i>
 </div>
 
-### 📍 Dijkstra's Algorithm (Shortest Path)
-Finds the absolute shortest path from a starting node to all other nodes in a weighted graph.
-* **Details:** This is the underlying logic behind GPS navigation routing! It uses a Priority Queue to always explore the cheapest known path next.
+---
+
+## 🔀 5. Advanced Sorting & Searching
+
+### ⚡ Quick Sort vs. 🧬 Merge Sort
+Both use the **Divide and Conquer** paradigm from DAA.
+* **Quick Sort:** Picks a pivot, partitions elements. O(N log N) average, O(1) space.
+* **Merge Sort:** Divides into single units, merges back in order. O(N log N) guaranteed, but requires O(N) extra space.
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" alt="Dijkstra Animation" width="300">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif" alt="Quick Sort Animation" width="300">
   <br>
-  <i>Dijkstra's Algorithm calculating the optimal shortest route across a complex network.</i>
+  <i>Quick Sort rapidly partitioning arrays around a pivot.</i>
+</div>
+
+### 🔍 Binary Search
+A fundamental search algorithm operating on sorted arrays. It cuts the search space in half every iteration, resulting in an incredibly fast O(log N) time complexity.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Dictionary_Binary_Search.gif" alt="Binary Search Animation" width="400">
+  <br>
+  <i>Binary search efficiently zeroing in on a target value.</i>
 </div>
 
 ---
 
-## 🏆 5. Competitive Programming Paradigms
+## 📚 6. Ultimate Resources & Links
 
-To conquer Codeforces and CodeChef, mastering these paradigms is non-negotiable.
+To master these concepts, visualization and practice are key.
 
-* **Greedy Algorithms:** Making the locally optimal choice at each step with the hope of finding a global optimum (e.g., Fractional Knapsack, Huffman Coding).
-* **Dynamic Programming (DP):** Breaking a massive problem into overlapping subproblems and caching the answers (Memoization or Tabulation) so you never compute the same thing twice! 
-* **Two Pointers & Sliding Window:** Optimizing nested loops O(N^2) into a single linear pass O(N) by manipulating start and end pointers.
-
----
-
-## 📚 6. Ultimate Learning Resources
-
-If you want to visualize these algorithms or read deep mathematical proofs, check these out:
-
-1. **[VisuAlgo](https://visualgo.net/):** The absolute best place to see data structures animated step-by-step.
-2. **[CP-Algorithms](https://cp-algorithms.com/):** The ultimate Bible for competitive programming math and advanced logic.
-3. **[Codeforces Problemset](https://codeforces.com/problemset):** Grinding contest problems sorted by difficulty rating.
+* 🎥 **[VisuAlgo](https://visualgo.net/)**: The absolute best platform for viewing step-by-step animations of every algorithm mentioned above.
+* 📖 **[CP-Algorithms](https://cp-algorithms.com/)**: The holy grail for competitive programming math, advanced logic, and complex data structures.
+* 💻 **[Codeforces Problemset](https://codeforces.com/problemset)**: The premier platform for grinding problems and building algorithmic intuition.
+* 🗺️ **[NeetCode Roadmap](https://neetcode.io/roadmap)**: A structured visual guide to mastering foundational and advanced interview problems.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Keep+Practicing!;Visualize,+Code,+Optimize!;Eat.+Sleep.+Code.+Repeat.&font=Fira+Code&center=true&width=500&height=50&color=EF3958" alt="Footer Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Keep+Practicing!;Code,+Analyze,+Optimize!;Eat.+Sleep.+Compile.+Repeat.&font=Fira+Code&center=true&width=600&height=50&color=EF3958" alt="Footer Typing SVG">
 </div>
