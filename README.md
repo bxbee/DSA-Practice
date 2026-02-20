@@ -1,14 +1,15 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=DSA+Practice+Repository;Mastering+Algorithms;From+Basics+to+Advanced+CP!&font=Fira+Code&center=true&width=600&height=50&color=00FF00&vCenter=true" alt="Typing SVG">
+<img src="https://readme-typing-svg.demolab.com/?lines=The+Ultimate+DSA+Workspace;Data+Structures+%26+Algorithms;Grinding+Codeforces+%26+CodeChef!;Mastering+Problem+Solving!&font=Fira+Code&center=true&width=800&height=60&color=00FF00&vCenter=true&size=22" alt="Typing SVG">
 
-A colorful, animated, and highly organized workspace for mastering Data Structures, Algorithms, and Competitive Programming! 🏆
+An detailed repository documenting my journey from fundamental data structures to advanced competitive programming algorithms. 🚀
 
 ---
 
-### 💻 Languages & Platforms
+### 💻 Tech Stack & Platforms
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 <br>
 ![Codeforces](https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white)
@@ -19,95 +20,112 @@ A colorful, animated, and highly organized workspace for mastering Data Structur
 
 ---
 
-## 🚀 1. Fundamentals: Arrays & Complexity
+## 🧱 1. Linear Data Structures
 
-Before diving deep, we must understand how to store basic data and measure the efficiency of our code using **Big $O$ Notation** (e.g., $O(1)$, $O(n)$, $O(\log n)$).
+Linear data structures organize data sequentially. They are the foundational building blocks for memory management and algorithmic logic.
 
-* **Arrays & Strings:** The bedrock of DSA. Used for sliding window and two-pointer techniques.
-* **Searching:** Moving from linear search $O(n)$ to the highly efficient **Binary Search** $O(\log n)$.
+### 🥞 The Stack (LIFO)
+A **Last-In, First-Out** structure. Imagine a stack of plates: you can only add or remove the top plate. 
+* **Details:** Essential for depth-first search, undo mechanisms, and parsing syntax (like validating parentheses). If you are studying for a quiz on data structures, mastering the `push()`, `pop()`, and `peek()` operations in O(1) time is critical!
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Dictionary_Binary_Search.gif" alt="Binary Search Animation" width="400">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif" alt="Tower of Hanoi Recursion/Stack" width="400">
   <br>
-  <i>Binary Search drastically cuts down search time by dividing the search space in half.</i>
+  <i>The Tower of Hanoi: A classic algorithmic problem solved perfectly using the recursive call stack.</i>
+</div>
+
+### 🚶 The Queue (FIFO)
+A **First-In, First-Out** structure. Just like a line at a ticket counter.
+* **Details:** Used in Breadth-First Search (BFS), CPU task scheduling, and handling asynchronous requests. Variants include Deques (Double-ended queues) and Priority Queues (heaps).
+
+---
+
+## 🌲 2. Non-Linear Data Structures
+
+When data requires hierarchy or complex relationships, we move to non-linear structures.
+
+### 🍃 Binary Search Trees (BST) & AVL Trees
+Trees consist of nodes connected by edges. A BST keeps the left child smaller and the right child larger than the parent.
+* **Details:** Allows for O(log N) search, insertion, and deletion. **AVL Trees** are self-balancing BSTs that automatically rotate to ensure the tree never becomes a slow, lopsided linked list.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/AVL-tree-w-letters_insert_G.gif" alt="AVL Tree Animation" width="300">
+  <br>
+  <i>Watch an AVL Tree perform a "rotation" to balance itself after a new node is inserted!</i>
 </div>
 
 ---
 
-## 📚 2. Linear Data Structures
+## 🔀 3. The Art of Sorting
 
-Data arranged in a sequential manner. Mastering these is crucial for parsing data and managing operations.
+Sorting is heavily tested in technical interviews and is a prerequisite for optimizing search algorithms.
 
-### 🥞 Stacks
-A **Last-In, First-Out (LIFO)** structure. If you are preparing for quizzes or technical rounds, Stacks are heavily tested! They are essential for:
-* Reversing strings
-* Validating parentheses in code
-* Undo operations in text editors
-* Evaluating expressions (Prefix/Postfix)
+### ⚡ Quick Sort (Divide and Conquer)
+Picks a "pivot" element and partitions the array into numbers smaller than the pivot and numbers larger than the pivot.
+* **Details:** Highly efficient with an average time complexity of O(N log N). It does this in-place, meaning it uses very little extra memory!
 
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif" alt="Quick Sort Animation" width="300">
+  <br>
+  <i>Quick Sort rapidly partitioning and sorting sub-arrays around a pivot.</i>
+</div>
 
+### 🧬 Merge Sort (Divide and Conquer)
+Divides the array into single elements, then repeatedly merges them back together in sorted order.
+* **Details:** Guarantees O(N log N) time complexity even in the worst-case scenario. Essential for sorting linked lists!
 
-### 🚶 Queues & Linked Lists
-* **Queues (FIFO):** First-In, First-Out. Perfect for scheduling tasks and Breadth-First Search (BFS).
-* **Linked Lists:** Nodes connected by pointers. Excellent for dynamic memory allocation where the size isn't known upfront.
-
-
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif" alt="Merge Sort Animation" width="300">
+  <br>
+  <i>Merge Sort breaking data down to single units and merging them in order.</i>
+</div>
 
 ---
 
-## 🌳 3. Non-Linear Data Structures
+## 🕸️ 4. Graph Algorithms
 
-When data isn't sequential, we use hierarchical and networked structures.
+Graphs model real-world networks—roads, social media connections, and computer networks. 
 
-### Trees
-Data organized in parent-child relationships. 
-* **Binary Search Trees (BST):** Keeps data sorted for fast lookup, insertion, and deletion.
-
-
-
-[Image of a binary search tree data structure]
-
-
-### Graphs
-Nodes (vertices) connected by edges. Used for mapping networks, finding shortest paths (like Google Maps), and social network connections.
+### 🗺️ Graph Traversal: BFS vs. DFS
+* **Breadth-First Search (BFS):** Explores neighbors level by level. Excellent for finding the shortest path on an unweighted grid.
+* **Depth-First Search (DFS):** Plunges as deep as possible down one path before backtracking. Great for finding connected components and maze solving.
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Depth-First-Search.gif" alt="DFS Animation" width="300">
   <br>
-  <i>Depth-First Search (DFS) exploring a graph by going as deep as possible before backtracking.</i>
+  <i>DFS plunging deep into a graph network before backtracking.</i>
 </div>
 
----
-
-## ⚙️ 4. Advanced Algorithms & CP 
-
-This is where the magic happens for competitive programming rounds on platforms like **CodeChef** and **Codeforces**.
-
-### 🧩 Dynamic Programming (DP)
-Breaking down complex problems into simpler overlapping subproblems and storing the results to avoid redundant calculations (Memoization/Tabulation).
-
-
-
-### 🔀 Sorting Algorithms
-From basic Bubble Sort to advanced Quick Sort and Merge Sort. 
+### 📍 Dijkstra's Algorithm (Shortest Path)
+Finds the absolute shortest path from a starting node to all other nodes in a weighted graph.
+* **Details:** This is the underlying logic behind GPS navigation routing! It uses a Priority Queue to always explore the cheapest known path next.
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif" alt="Bubble Sort Animation" width="300">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" alt="Dijkstra Animation" width="300">
   <br>
-  <i>Bubble sort repeatedly stepping through the list, comparing adjacent elements.</i>
+  <i>Dijkstra's Algorithm calculating the optimal shortest route across a complex network.</i>
 </div>
 
 ---
 
-## 🌐 5. Best Visual & Learning Resources
+## 🏆 5. Competitive Programming Paradigms
 
-Don't just read about algorithms—watch them work!
+To conquer Codeforces and CodeChef, mastering these paradigms is non-negotiable.
 
-1. **[VisuAlgo](https://visualgo.net/):** The absolute best place to see data structures and algorithms animated step-by-step.
-2. **[CP-Algorithms](https://cp-algorithms.com/):** The ultimate Bible for competitive programming math and advanced algorithms.
-3. **[NeetCode](https://neetcode.io/):** Excellent roadmap and video explanations for standard interview problems.
-4. **[Codeforces Problemset](https://codeforces.com/problemset):** For grinding contest problems sorted by difficulty rating.
+* **Greedy Algorithms:** Making the locally optimal choice at each step with the hope of finding a global optimum (e.g., Fractional Knapsack, Huffman Coding).
+* **Dynamic Programming (DP):** Breaking a massive problem into overlapping subproblems and caching the answers (Memoization or Tabulation) so you never compute the same thing twice! 
+* **Two Pointers & Sliding Window:** Optimizing nested loops O(N^2) into a single linear pass O(N) by manipulating start and end pointers.
+
+---
+
+## 📚 6. Ultimate Learning Resources
+
+If you want to visualize these algorithms or read deep mathematical proofs, check these out:
+
+1. **[VisuAlgo](https://visualgo.net/):** The absolute best place to see data structures animated step-by-step.
+2. **[CP-Algorithms](https://cp-algorithms.com/):** The ultimate Bible for competitive programming math and advanced logic.
+3. **[Codeforces Problemset](https://codeforces.com/problemset):** Grinding contest problems sorted by difficulty rating.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Keep+Practicing!;Visualize,+Code,+Optimize!&font=Fira+Code&center=true&width=400&height=50&color=EF3958" alt="Footer Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Keep+Practicing!;Visualize,+Code,+Optimize!;Eat.+Sleep.+Code.+Repeat.&font=Fira+Code&center=true&width=500&height=50&color=EF3958" alt="Footer Typing SVG">
 </div>
