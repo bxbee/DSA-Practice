@@ -1,89 +1,113 @@
-# 🚀 DSA Codes From Beginner to Advance Level 
+<div align="center">
 
-<p align="center">
-  <img src="https://github.com/raj-dsa/animated-banner/blob/main/dsa-banner.gif" alt="DSA Animated Banner" width="800"/>
-</p>
+<img src="https://readme-typing-svg.demolab.com/?lines=DSA+Practice+Repository;Mastering+Algorithms;From+Basics+to+Advanced+CP!&font=Fira+Code&center=true&width=600&height=50&color=00FF00&vCenter=true" alt="Typing SVG">
 
-<h3 align="center">
-  ⭐ ⭐ ⭐ Click on Star to Help Me Achieve More ⭐ ⭐ ⭐
-</h3>
+A colorful, animated, and highly organized workspace for mastering Data Structures, Algorithms, and Competitive Programming! 🏆
 
 ---
 
-## 🔥 Practice Commitment  
-<p align="center">
-  <img src="https://img.shields.io/badge/Practice-4_hours/day-orange?style=for-the-badge&logo=leetcode" alt="Practice Badge"/>
-</p>
+### 💻 Languages & Platforms
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<br>
+![Codeforces](https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white)
+![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white)
+![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
+
+</div>
 
 ---
 
-## 📚 DSA Roadmap   
-<p align="center">
-  <img src="https://github.com/raj-dsa/animated-banner/blob/main/dsa-flowchart.gif" alt="DSA Flowchart" width="850"/>
-</p>
+## 🚀 1. Fundamentals: Arrays & Complexity
+
+Before diving deep, we must understand how to store basic data and measure the efficiency of our code using **Big $O$ Notation** (e.g., $O(1)$, $O(n)$, $O(\log n)$).
+
+* **Arrays & Strings:** The bedrock of DSA. Used for sliding window and two-pointer techniques.
+* **Searching:** Moving from linear search $O(n)$ to the highly efficient **Binary Search** $O(\log n)$.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Dictionary_Binary_Search.gif" alt="Binary Search Animation" width="400">
+  <br>
+  <i>Binary Search drastically cuts down search time by dividing the search space in half.</i>
+</div>
 
 ---
 
-## 🧩 Topics Covered  
+## 📚 2. Linear Data Structures
 
-### 📐 Arrays & Strings  
-- Practice slicing, reversing, merging  
-- Focus on time complexity O(n), O(n²)
-- Sliding window & hashing problems  
+Data arranged in a sequential manner. Mastering these is crucial for parsing data and managing operations.
 
-### 🔗 Linked Lists  
-- Implement insert, delete, reverse  
-- Detect cycles (Floyd’s algorithm)  
-- Merging & splitting lists  
+### 🥞 Stacks
+A **Last-In, First-Out (LIFO)** structure. If you are preparing for quizzes or technical rounds, Stacks are heavily tested! They are essential for:
+* Reversing strings
+* Validating parentheses in code
+* Undo operations in text editors
+* Evaluating expressions (Prefix/Postfix)
 
-### 🌳 Trees & Graphs  
-- Binary tree traversals (DFS, BFS)  
-- Graph search (BFS, DFS, Dijkstra)  
-- Recursion & adjacency lists  
 
-### ⚡ Dynamic Programming  
-- Fibonacci & knapsack basics  
-- Break problems into subproblems  
-- Memoization vs tabulation  
+
+### 🚶 Queues & Linked Lists
+* **Queues (FIFO):** First-In, First-Out. Perfect for scheduling tasks and Breadth-First Search (BFS).
+* **Linked Lists:** Nodes connected by pointers. Excellent for dynamic memory allocation where the size isn't known upfront.
+
+
 
 ---
 
-## 🎥 Best YouTube Channels for DSA  
+## 🌳 3. Non-Linear Data Structures
 
-- [💻 Love Babbar DSA Series](https://www.youtube.com/c/LoveBabbar)  
-- [📘 Striver’s DSA Playlist](https://www.youtube.com/c/takeUforward)  
-- [🔑 CodeWithHarry](https://www.youtube.com/c/CodeWithHarry)  
-- [⚡ Abdul Bari (Algorithms)](https://www.youtube.com/c/abdul_bari)  
+When data isn't sequential, we use hierarchical and networked structures.
 
----
+### Trees
+Data organized in parent-child relationships. 
+* **Binary Search Trees (BST):** Keeps data sorted for fast lookup, insertion, and deletion.
 
-## 📖 Resource Links  
 
-- [LeetCode](https://leetcode.com/)  
-- [GeeksForGeeks](https://www.geeksforgeeks.org/)  
-- [HackerRank](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)  
-- [Codeforces](https://codeforces.com/)  
-- [InterviewBit](https://www.interviewbit.com/)  
 
----
+[Image of a binary search tree data structure]
 
-## 🌟 Motivation  
-<p align="center">
-  <img src="https://github.com/raj-dsa/animated-banner/blob/main/motivation.gif" alt="Motivation GIF" width="600"/>
-</p>
 
-🔥 Practice at least **4 hours/day** — Consistency is the key!  
+### Graphs
+Nodes (vertices) connected by edges. Used for mapping networks, finding shortest paths (like Google Maps), and social network connections.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Depth-First-Search.gif" alt="DFS Animation" width="300">
+  <br>
+  <i>Depth-First Search (DFS) exploring a graph by going as deep as possible before backtracking.</i>
+</div>
 
 ---
 
-## 📌 Contribution  
-- Fork the repo  
-- Add your solutions  
-- Submit a Pull Request  
+## ⚙️ 4. Advanced Algorithms & CP 
+
+This is where the magic happens for competitive programming rounds on platforms like **CodeChef** and **Codeforces**.
+
+### 🧩 Dynamic Programming (DP)
+Breaking down complex problems into simpler overlapping subproblems and storing the results to avoid redundant calculations (Memoization/Tabulation).
+
+
+
+### 🔀 Sorting Algorithms
+From basic Bubble Sort to advanced Quick Sort and Merge Sort. 
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif" alt="Bubble Sort Animation" width="300">
+  <br>
+  <i>Bubble sort repeatedly stepping through the list, comparing adjacent elements.</i>
+</div>
 
 ---
 
-## 🏆 Progress Tracker  
-<p align="center">
-  <img src="https://github.com/raj-dsa/animated-banner/blob/main/progress-bar.gif" alt="Progress Tracker" width="700"/>
-</p>
+## 🌐 5. Best Visual & Learning Resources
+
+Don't just read about algorithms—watch them work!
+
+1. **[VisuAlgo](https://visualgo.net/):** The absolute best place to see data structures and algorithms animated step-by-step.
+2. **[CP-Algorithms](https://cp-algorithms.com/):** The ultimate Bible for competitive programming math and advanced algorithms.
+3. **[NeetCode](https://neetcode.io/):** Excellent roadmap and video explanations for standard interview problems.
+4. **[Codeforces Problemset](https://codeforces.com/problemset):** For grinding contest problems sorted by difficulty rating.
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Keep+Practicing!;Visualize,+Code,+Optimize!&font=Fira+Code&center=true&width=400&height=50&color=EF3958" alt="Footer Typing SVG">
+</div>
