@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com/?lines=Data+Structures+%26+Algorithms;The+Complete+DAA+Roadmap;From+Arrays+to+Dynamic+Programming;Visualized+%26+Animated!&font=Fira+Code&center=true&width=800&height=60&color=F7931E&vCenter=true&size=24" alt="Typing SVG">
 
-A comprehensive, animated collection of data structures and algorithms.
+A comprehensive, animated collection of data structures and algorithms Created By Me still working at it.
 **Learn. Visualize. Code.**
 
 ---
