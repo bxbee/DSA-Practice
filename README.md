@@ -30,12 +30,12 @@ Before writing code, we must measure its efficiency.
 
 | Complexity | Name | Example Algorithm |
 | :--- | :--- | :--- |
-| $O(1)$ | Constant | Accessing Array Index |
-| $O(\log N)$ | Logarithmic | Binary Search |
+| $O(1) | Constant | Accessing Array Index |
+| $O(\log N) | Logarithmic | Binary Search |
 | $O(N)$ | Linear | Loop through Array |
-| $O(N \log N)$ | Linearithmic | Merge Sort, Quick Sort |
-| $O(N^2)$ | Quadratic | Nested Loops (Bubble Sort) |
-| $O(2^N)$ | Exponential | Recursive Fibonacci |
+| $O(N \log N) | Linearithmic | Merge Sort, Quick Sort |
+| $O(N^2) | Quadratic | Nested Loops (Bubble Sort) |
+| $O(2^N) | Exponential | Recursive Fibonacci |
 
 ---
 
@@ -43,14 +43,14 @@ Before writing code, we must measure its efficiency.
 
 ### 🚃 Arrays
 A collection of items stored at contiguous memory locations.
-* **Access:** $O(1)$ (Fastest)
+* **Access:** O(1) (Fastest)
 * **Insertion/Deletion:** $O(N)$ (Slow, requires shifting)
 
 ### 🔗 Linked Lists (Singly & Doubly)
 Nodes connected by pointers. Unlike arrays, they are not stored continuously in memory.
 * **Singly Linked List:** Forward navigation only.
 * **Doubly Linked List:** Forward and Backward navigation.
-* **Why use it?** Dynamic size and fast insertion/deletion $O(1)$ if pointer is known.
+* **Why use it?** Dynamic size and fast insertion/deletion O(1) if pointer is known.
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Doubly_linked_list_insert_after.png" alt="Linked List Insertion" width="500">
