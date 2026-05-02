@@ -22,6 +22,6 @@ int main() {
     vector<int> arr = {2, 3, 7, 10, 11, 11, 25};
     int target = 9;
   
-    cout << lowerBound(arr, target);
+    cout << lowerBound (arr, target);
     return 0;
 }
