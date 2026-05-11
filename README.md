@@ -25,7 +25,7 @@ and my progress in it.
 ## ⚡ 1. Complexity Analysis (Big O)
 Before writing code, we must measure its efficiency.
 
-* **Time Complexity:** How the runtime grows as input size ($N$) increases.
+* **Time Complexity:** How the runtime grows as input size (N) increases.
 * **Space Complexity:** How much extra memory is required.
 
 | Complexity | Name | Example Algorithm |
@@ -77,8 +77,8 @@ Nodes connected by pointers. Unlike arrays, they are not stored continuously in 
 ## 🔎 3. Searching Algorithms
 
 ### 🔦 Linear vs Binary Search
-* **Linear Search:** Checks every element. $O(N)$.
-* **Binary Search:** Divides the search interval in half. Requires **Sorted Array**. $O(\log N)$.
+* **Linear Search:** Checks every element. O(N).
+* **Binary Search:** Divides the search interval in half. Requires **Sorted Array**. O(log N).
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Dictionary_Binary_Search.gif" alt="Binary Search Animation" width="400">
@@ -108,7 +108,7 @@ A **Divide and Conquer** algorithm. Picks a "pivot" and partitions the array.
 
 ### 🧬 Merge Sort
 Recursively divides array into halves, sorts them, and merges them.
-* **Complexity:** Guaranteed $O(N \log N)$.
+* **Complexity:** Guaranteed O(N log N).
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif" alt="Merge Sort" width="300">
@@ -120,7 +120,7 @@ Recursively divides array into halves, sorts them, and merges them.
 
 ### 🍃 Binary Search Tree (BST)
 A hierarchical structure where the left child is smaller and right child is larger.
-* **Search/Insert:** $O(\log N)$ (if balanced).
+* **Search/Insert:** O(log N) (if balanced).
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Binary_search_tree_example.gif" alt="BST" width="300">
