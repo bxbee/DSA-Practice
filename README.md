@@ -92,7 +92,7 @@ Nodes connected by pointers. Unlike arrays, they are not stored continuously in 
 
 ### 🧼 Bubble Sort
 Repeatedly swaps adjacent elements if they are in the wrong order.
-* **Complexity:** $O(N^2)$ (Slow, good for learning).
+* **Complexity:** O(N^2) (Slow, good for learning).
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" alt="Bubble Sort" width="300">
