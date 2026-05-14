@@ -1,0 +1,29 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+void leader(vector<int>& arr) {
+    int n = arr.size();
+    int maxRight = arr[n-1];   // last element is always a leader
+    cout << maxRight << " ";
+
+    // Traverse from right to left
+    for (int i = n-2; i >= 0; i--) {
+        if (arr[i] >= maxRight) {
+            maxRight = arr[i];
+            cout << maxRight << " ";
+        }
+    }
+    cout << endl;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+    for (int i = 0; i < n; i++) cin >> arr[i];
+
+    leader(arr);
+
+    return 0;
+}
