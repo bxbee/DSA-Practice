@@ -1,0 +1,49 @@
+//brute force
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        if(nums.empty()) return 0;
+        int n = nums.size();
+        int longest = 0;
+
+        for(int i = 0; i < n; i++) {
+            int currentNum = nums[i];
+            int length = 1;
+
+            // check consecutive numbers
+            while(find(nums.begin(), nums.end(), currentNum + 1) != nums.end()) {
+                currentNum += 1;
+                length++;
+            }
+            longest = max(longest, length);
+        }
+        return longest;
+    }
+};
+//OPTIMAL
+
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        if(nums.empty()) return 0;
+
+        unordered_set<int> s(nums.begin(), nums.end());
+        int longest = 0;
+
+        for(int num : s) {
+            // only start counting if it's the beginning of a sequence
+            if(s.find(num - 1) == s.end()) {
+                int currentNum = num;
+                int length = 1;
+
+                while(s.find(currentNum + 1) != s.end()) {
+                    currentNum += 1;
+                    length++;
+                }
+                longest = max(longest, length);
+            }
+        }
+        return longest;
+    }
+};
+
