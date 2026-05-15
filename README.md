@@ -100,7 +100,7 @@ Repeatedly swaps adjacent elements if they are in the wrong order.
 
 ### ⚡ Quick Sort
 A **Divide and Conquer** algorithm. Picks a "pivot" and partitions the array.
-* **Complexity:** $O(N \log N)$ usually. Fast and memory efficient.
+* **Complexity:** $O(N \log N) usually. Fast and memory efficient.
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif" alt="Quick Sort" width="300">
