@@ -150,7 +150,7 @@ Explores as far as possible along each branch before backtracking. Uses a **Stac
 
 ## 🧠 7. Design & Analysis of Algorithms (DAA)
 
-### 🧩 Dynamic Programming (DP)
+### 🧩 Dynamic Programming(DP)
 Solves complex problems by breaking them into simpler subproblems and storing their solutions (Memoization) to avoid re-computing.
 * **Examples:** Fibonacci, Knapsack Problem, Longest Common Subsequence.
 
