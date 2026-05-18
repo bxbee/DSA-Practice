@@ -77,7 +77,7 @@ Nodes connected by pointers. Unlike arrays, they are not stored continuously in 
 ## 🔎 3. Searching Algorithms
 
 ### 🔦 Linear vs Binary Search
-* **Linear Search:** Checks every element. O(N).
+* **Linear Search:** Checks every element.O(N).
 * **Binary Search:** Divides the search interval in half. Requires **Sorted Array**. O(log N).
 
 <div align="center">
