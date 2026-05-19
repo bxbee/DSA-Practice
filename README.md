@@ -4,7 +4,7 @@
 
 A collection of data structures and algorithms Created By Me still working at it.
 and my progress in it.
-**Learn. Visualize. Code. Believe**
+  Learn. Visualize. Code. Believe
 
 ---
 
