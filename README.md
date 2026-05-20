@@ -156,7 +156,7 @@ Solves complex problems by breaking them into simpler subproblems and storing th
 
 ### 🏃 Greedy Algorithms
 Makes the locally optimal choice at each stage.
-* **Examples:** Dijkstra's Algorithm, Huffman Coding, Prim's Algorithm.
+Examples: Dijkstra's Algorithm, Huffman Coding, Prim's Algorithm.
 
 ### ↩️ Backtracking
 Builds candidates for the solution incrementally and abandons a candidate ("backtracks") as soon as it determines the candidate cannot be a valid solution.
