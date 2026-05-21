@@ -59,7 +59,7 @@ Nodes connected by pointers. Unlike arrays, they are not stored continuously in 
 </div>
 
 ### 🥞 Stacks (LIFO)
-**Last-In, First-Out.** The element inserted last is the first to be removed.
+Last-In, First-Out. The element inserted last is the first to be removed.
 * **Operations:** `push()`, `pop()`, `peek()`
 * **Use Cases:** Undo/Redo features, Browser history, Recursion stack.
 
