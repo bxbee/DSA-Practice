@@ -90,7 +90,7 @@ Last-In, First-Out. The element inserted last is the first to be removed.
 
 ## 🔄 4. Sorting Algorithms
 
-### 🧼 Bubble Sort
+🧼 Bubble Sort
 Repeatedly swaps adjacent elements if they are in the wrong order.
 * **Complexity:** O(N^2) (Slow, good for learning).
 
