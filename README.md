@@ -138,7 +138,7 @@ Explores neighbor nodes first (layer by layer). Uses a **Queue**.
 
 ### 🕵️ DFS (Depth-First Search)
 Explores as far as possible along each branch before backtracking. Uses a **Stack** (or Recursion).
-* **Best for:** Puzzle solving, maze generation.
+* **Best for: Puzzle solving, maze generation.
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Depth-First-Search.gif" alt="DFS Animation" width="350">
