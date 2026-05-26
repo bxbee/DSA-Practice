@@ -172,7 +172,7 @@ Builds candidates for the solution incrementally and abandons a candidate ("back
 
 ## 📚 Resources & Links
 
-* **Visualization:** [VisuAlgo (Must Visit!)](https://visualgo.net/en)
+* **Visualization: [VisuAlgo (Must Visit!)](https://visualgo.net/en)
 * **Practice:** [LeetCode Top 100 Liked](https://leetcode.com/problem-list/top-100-liked-questions/)
 * **Theory:** [GeeksForGeeks DSA](https://www.geeksforgeeks.org/data-structures/)
 * **Cheat Sheet:** [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
