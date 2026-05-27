@@ -175,7 +175,7 @@ Builds candidates for the solution incrementally and abandons a candidate ("back
 * **Visualization: [VisuAlgo (Must Visit!)](https://visualgo.net/en)
 * **Practice:** [LeetCode Top 100 Liked](https://leetcode.com/problem-list/top-100-liked-questions/)
 * **Theory:** [GeeksForGeeks DSA](https://www.geeksforgeeks.org/data-structures/)
-* **Cheat Sheet:** [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+* Cheat Sheet : [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com/?lines=Keep+Coding!;Happy+Learning!&font=Fira+Code&center=true&width=400&height=50&color=2E86C1" alt="Footer">
