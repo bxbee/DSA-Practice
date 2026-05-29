@@ -60,8 +60,8 @@ Nodes connected by pointers. Unlike arrays, they are not stored continuously in 
 
 ### 🥞 Stacks (LIFO)
 Last-In, First-Out. The element inserted last is the first to be removed.
-* **Operations:** `push()`, `pop()`, `peek()`
-* **Use Cases:** Undo/Redo features, Browser history, Recursion stack.
+* Operations: `push()`, `pop()`, `peek()`
+* Use Cases: Undo/Redo features, Browser history, Recursion stack.
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Lifo_stack.png" alt="Stack Diagram" width="300">
