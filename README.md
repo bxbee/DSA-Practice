@@ -8,7 +8,7 @@ and my progress in it.
 
 ---
 
-### 🛠️ Tech Stack & Platforms
+## 🛠️ Tech Stack & Platforms
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -48,9 +48,9 @@ A collection of items stored at contiguous memory locations.
 
 ### 🔗 Linked Lists (Singly & Doubly)
 Nodes connected by pointers. Unlike arrays, they are not stored continuously in memory.
-* **Singly Linked List:** Forward navigation only.
-* **Doubly Linked List:** Forward and Backward navigation.
-* **Why use it?** Dynamic size and fast insertion/deletion O(1) if pointer is known.
+* Singly Linked List:** Forward navigation only.
+* Doubly Linked List:** Forward and Backward navigation.
+* Why use it?** Dynamic size and fast insertion/deletion O(1) if pointer is known.
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Doubly_linked_list_insert_after.png" alt="Linked List Insertion" width="500">
@@ -69,8 +69,8 @@ Last-In, First-Out. The element inserted last is the first to be removed.
 
 ### 🚶 Queues (FIFO)
 **First-In, First-Out.** The element inserted first is the first to be removed.
-* **Operations:** `enqueue()`, `dequeue()`
-* **Use Cases:** Printer scheduling, CPU task scheduling, Breadth-First Search (BFS).
+* Operations:** `enqueue()`, `dequeue()`
+* Use Cases:** Printer scheduling, CPU task scheduling, Breadth-First Search (BFS).
 
 ---
 
