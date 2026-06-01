@@ -152,7 +152,7 @@ Explores as far as possible along each branch before backtracking. Uses a **Stac
 
 ### 🧩 Dynamic Programming(DP)
 Solves complex problems by breaking them into simpler subproblems and storing their solutions (Memoization) to avoid re-computing.
-* **Examples:** Fibonacci, Knapsack Problem, Longest Common Subsequence.
+* *Examples:** Fibonacci, Knapsack Problem, Longest Common Subsequence.
 
 ### 🏃 Greedy Algorithms
 Makes the locally optimal choice at each stage.
