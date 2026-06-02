@@ -43,8 +43,8 @@ Before writing code, we must measure its efficiency.
 
 ### 🚃 Arrays
 A collection of items stored at contiguous memory locations.
-* **Access:** O(1) (Fastest)
-* **Insertion/Deletion:** O(N) (Slow, requires shifting)
+* Access: O(1) (Fastest)
+* Insertion/Deletion:** O(N) (Slow, requires shifting)
 
 ### 🔗 Linked Lists (Singly & Doubly)
 Nodes connected by pointers. Unlike arrays, they are not stored continuously in memory.
